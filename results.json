@@ -1,0 +1,23 @@
+{
+  "test_read_data": {
+    "lengths": [
+      1750,
+      250,
+      500
+    ]
+  },
+  "test_prepare_data": {
+    "dev_texts_shape": [
+      250,
+      61
+    ],
+    "train_labels_shape": [
+      1750,
+      77
+    ]
+  },
+  "test_model": {
+    "f1": 0.981680390064785,
+    "f1_wo_o": 0.940347576760175
+  }
+}
