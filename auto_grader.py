@@ -19,8 +19,8 @@ def test_read_data(results):
     return 1
 
 def test_prepare_data(results):
-    if not tuple(results["dev_texts_shape"]) == (1750, 61):
-        return f"Dev texts shape is {results['labels_shape']}, expected (1750, 61)"
+    if not tuple(results["dev_texts_shape"]) == (250, 61):
+        return f"Dev texts shape is {results['labels_shape']}, expected (250, 61)"
     if not tuple(results["train_labels_shape"]) == (1750, 77):
         return f"Train Labels shape is {results['labels_shape']}, expected (1750, 77)"
     return 1
